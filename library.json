@@ -1,0 +1,16 @@
+{
+  "name": "cnfx-can",
+  "version": "0.1.0",
+  "description": "CAN transport and node addressing for CNFX robots. No message definitions.",
+  "keywords": "can, canbus, robot, stm32, esp32",
+  "frameworks": "arduino",
+  "platforms": "*",
+  "dependencies": [
+    {
+      "owner": "pazi88",
+      "name": "STM32_CAN",
+      "version": "^1.2.2",
+      "platforms": ["ststm32"]
+    }
+  ]
+}
